@@ -1,4 +1,4 @@
-# Scrapy settings for news_crawler project
+# Scrapy settings for the_news project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,16 +7,16 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "news_crawler"
+BOT_NAME = "the_news"
 
-SPIDER_MODULES = ["news_crawler.spiders"]
-NEWSPIDER_MODULE = "news_crawler.spiders"
+SPIDER_MODULES = ["the_news.spiders"]
+NEWSPIDER_MODULE = "the_news.spiders"
 
 ADDONS = {}
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "news_crawler (+http://www.yourdomain.com)"
+#USER_AGENT = "the_news (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -41,13 +41,13 @@ DOWNLOAD_DELAY = 1
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "news_crawler.middlewares.NewsCrawlerSpiderMiddleware": 543,
+#    "the_news.middlewares.TheNewsSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "news_crawler.middlewares.NewsCrawlerDownloaderMiddleware": 543,
+#    "the_news.middlewares.TheNewsDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -59,7 +59,7 @@ DOWNLOAD_DELAY = 1
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "news_crawler.pipelines.NewsCrawlerPipeline": 300,
+#    "the_news.pipelines.TheNewsPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -85,3 +85,4 @@ DOWNLOAD_DELAY = 1
 
 # Set settings whose default value is deprecated to a future-proof value
 FEED_EXPORT_ENCODING = "utf-8"
+LOG_LEVEL = 'ERROR'
