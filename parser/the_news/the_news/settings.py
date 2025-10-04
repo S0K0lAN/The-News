@@ -86,3 +86,13 @@ DOWNLOAD_DELAY = 1
 # Set settings whose default value is deprecated to a future-proof value
 FEED_EXPORT_ENCODING = "utf-8"
 LOG_LEVEL = 'ERROR'
+
+CONCURRENT_REQUESTS = 1
+CONCURRENT_REQUESTS_PER_DOMAIN = 1
+
+FEEDS = {
+    'output.json': {
+        'format': 'json',
+        'overwrite': True,  # Explicitly set to overwrite (default is True anyway)
+    },
+}
