@@ -1,1 +1,120 @@
 /parser/the_news/output.json
+# Общие файлы ОС
+Thumbs.db
+.DS_Store
+
+# Файлы проектов Visual Studio
+*.swp
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.dll
+*.pdb
+
+# Папки сборки
+[Bb]in/
+[Oo]bj/
+out/
+build/
+
+# Файлы Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Файлы Rider
+.idea/
+
+# Файлы пользователей
+*.user
+*.userosscache
+*.sln.ide
+
+# Файлы пакетов NuGet
+**/packages/*
+!**/packages/build/
+.nuget/
+*.nupkg
+NuGet.exe
+NuGet.Config
+
+# Файлы тестов
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Файлы покрытия кода
+*.coverage
+*.coveragexml
+
+# Файлы Visual Studio Code
+.vscode/
+.vs
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Файлы Rider
+.idea/
+*.sln.iml
+
+# Файлы macOS
+.DS_Store
+
+# Файлы локальной БД
+*.db
+*.db-journal
+*.sqlite
+*.mdf
+*.ldf
+
+# Файлы логов
+*.log
+logs/
+
+# Файлы окружения
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+*.env
+.env.local
+.env.production
+
+# Файлы миграций (опционально - если хочешь исключить)
+# Migrations/
+
+# Временные файлы
+tmp/
+temp/
+
+# Файлы публикации
+publish/
+
+# Файлы PostgreSQL (если используешь локально)
+/pgdata/
+/postgres-data/
+
+# Файлы конфигурации БД
+connectionstrings.*.json
+
+# Локальные настройки
+launchSettings.json
+
+# Файлы Docker
+.docker/
