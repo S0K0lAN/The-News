@@ -58,9 +58,9 @@ DOWNLOAD_DELAY = 1
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "the_news.pipelines.TheNewsPipeline": 300,
-#}
+ITEM_PIPELINES = {
+    "the_news.pipelines.TheNewsPipeline": 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -96,3 +96,11 @@ FEEDS = {
         'overwrite': True,  # Explicitly set to overwrite (default is True anyway)
     },
 }
+
+# PostgreSQL connection settings (configure for your environment)
+PG_HOST = "localhost"
+PG_PORT = 5432
+PG_USER = "tnadmin"
+PG_PASSWORD = "12345678"
+PG_DATABASE = "the_news"
+
